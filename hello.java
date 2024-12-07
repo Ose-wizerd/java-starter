@@ -1,5 +1,5 @@
-import java.util.Scanner;
-import javax.swing.JOptionPane;
+// import java.util.Scanner;
+// import javax.swing.JOptionPane;
 
 //        System.out.println("hello woeld");
 //        int x=34;
@@ -128,7 +128,7 @@ import javax.swing.JOptionPane;
     // String name=JOptionPane.showInputDialog("enter your name");
     // int age=Integer.parseInt(JOptionPane.showInputDialog("enter your age"));
     // JOptionPane.showMessageDialog(null, "hello " + name+ " you are "+age + " years old!");
-Scanner scanner=new Scanner(System.in);
+// Scanner scanner=new Scanner(System.in);
 
 //     System.out.println("enter value of x: ");
 //     double y=inp.nextInt();
@@ -265,25 +265,42 @@ Scanner scanner=new Scanner(System.in);
 //   System.out.println("Area is "+r1.calcArea());
 // }
 // the person class contain two constractr called person and the its object identifies it by its data type and number of parameter
-public class Person{
- String name;
- int age;
- int id;
+// public class Person{
+//  String name;
+//  int age;
+//  int id;
 
- Person(){
-  System.out.println("this is the null const");
- }
+//  Person(){
+//   System.out.println("this is the null const");
+//  }
 
- Person(String name, int id){
-  this.name=name;
-  this.id=id;
- }
-}
+//  Person(String name, int id){
+//   this.name=name;
+//   this.id=id;
+//  }
+// }
 
-void main(String[] args){
-  Person p1=new Person();
+// void main(String[] args){
+//   Person p1=new Person();
 
-  Person p2=new Person("osama",23);
-  System.out.println(p2.name);
+//   Person p2=new Person("osama",23);
+//   System.out.println(p2.name);
 
-}
+// }
+
+// class user {
+// int usr_id;
+// String Fname;
+// String Lname;
+//  user(int usr, String fname, String lname){
+//   this.usr_id=usr;
+//   this.Fname=fname;
+//   this.Lname=lname;
+// }
+  
+// }
+
+// // class Student extends user {
+// // String batch;
+  
+// // }
