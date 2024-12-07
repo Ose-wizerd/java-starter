@@ -122,8 +122,8 @@ import javax.swing.JOptionPane;
 //   }
 // }
 
-public class hello{
-  public static void main(String[] args){
+// public class hello{
+//   public static void main(String[] args){
     // System.out.println("hello" +"world");
     // String name=JOptionPane.showInputDialog("enter your name");
     // int age=Integer.parseInt(JOptionPane.showInputDialog("enter your age"));
@@ -176,7 +176,7 @@ Scanner scanner=new Scanner(System.in);
 // }
 // }
 
-String name="osama";
+// String name="osama";
 // boolean reslt=name.equalsIgnoreCase("Osama");
 // char reslt =name.charAt(1);
 //  boolean reslt =name.isEmpty();
@@ -186,11 +186,104 @@ String name="osama";
 
 
 
-System.out.println(reslt);
+// System.out.println(reslt);
+
+// class box{
+//   double height;
+//   double width;
+//   double area(){
+// return height*width;
+//   }
+// }
+
+// void main(String[] args){
+//   box b1=new box();
+//   b1.height=12.5;
+//   b1.width=5.5;
+//   // System.out.println("enter the first number: ");
+//   // int y=scanner.nextInt();
+//   // System.out.println("enter the second number: ");
+//   // int z=scanner.nextInt();
+//   // double are=y*z;
+//   // System.out.println("AREA IS: " +b1.area(10.5,5.5) + "are: " + are);
+//   System.out.println("area is: "+b1.area());
+// }
+
+// class Student{
+//   String Name;
+//   int Id;
+//   Student(String Name,int id){
+//    this.Name=Name;
+//     Id=id;
+//     System.out.println("hello "+ Name);
+//   }
+//   Student(){
+//     System.out.println("the second constructor: ");
+//   }
+// }
+
+// void main(String[] args){
+//   Student st=new Student("osama",02345);
+//   Student st1=new Student();
+//   System.out.println("you are the best "+st.Name+" whith id no: "+st.Id);
+// }
+
+// class Person{
+//   String Name;
+//   int phone;
+//   int age;
+
+//   Person(String Name,int phone,int age){
+//     this.Name=Name;
+//     this.phone=phone;
+//     this.age=age;
+//     System.out.println("hello "+Name +" you are "+ age + " years old!");
+//   }
+
+// }
 
 
 
+//   void main(String[] args) {
+//     Person p1=new Person("osama",910045955, 23);
+//   }
 
+// class Rectangle{
+//   double width,length;
+//   void setData(double w,double l){
+//     width=w;
+//     length=l;
+//   }
+//   double calcArea(){
+//     return width*length;
+//   }
+// }
 
-  }
+// void main(String[] args){
+//   Rectangle r1=new Rectangle();
+//   r1.setData(10, 20);
+//   System.out.println("Area is "+r1.calcArea());
+// }
+// the person class contain two constractr called person and the its object identifies it by its data type and number of parameter
+public class Person{
+ String name;
+ int age;
+ int id;
+
+ Person(){
+  System.out.println("this is the null const");
+ }
+
+ Person(String name, int id){
+  this.name=name;
+  this.id=id;
+ }
+}
+
+void main(String[] args){
+  Person p1=new Person();
+
+  Person p2=new Person("osama",23);
+  System.out.println(p2.name);
+
 }
